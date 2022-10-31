@@ -17,7 +17,7 @@
 }
 
 
-/* Main */
+/* Profile */
 #profile__img {
   width: 100%;
 }
@@ -26,7 +26,7 @@
   height: 88px;
   border-radius: 275px;
 }
-.main p {
+.profile p {
   font-family: 'inter', sans-serif;
   font-weight: 700;
   font-size: 20px;

@@ -1,7 +1,7 @@
 import pic from './images/profile__img.jpg';
-const Main = () => {
+const Profile = () => {
     return ( 
-        <div className="main">
+        <div className="profile">
         <div id='profile__img'>
         <img src={pic} alt="profile_img"/>
         </div>
@@ -11,4 +11,4 @@ const Main = () => {
      );
 }
  
-export default Main;
+export default Profile;
