@@ -18,6 +18,9 @@
 
 
 /* Profile */
+.profile {
+  padding-top: 30px;
+}
 #profile__img {
   width: 100%;
 }
@@ -32,4 +35,20 @@
   font-size: 20px;
   line-height: 30px;
   color: #101828;
+}
+.profile a {
+  display: flex;
+  padding: 24px 32px;
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #101828;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 30px 20px;
 }
