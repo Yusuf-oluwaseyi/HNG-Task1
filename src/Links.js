@@ -10,7 +10,7 @@ const Links = () => {
         <a href="https://books.zuri.team/" id='book__python'>Python Books</a>
         <a href="https://background.zuri.team/" id='pitch'>Background Check for Coders</a>
         <a href="https://books.zuri.team/design-rules" id='book__design'>Design Books</a>
-        <div>
+        <div className='repo'>
             <img src={slack} alt="" />
             <img src={git} alt="" />
         </div>

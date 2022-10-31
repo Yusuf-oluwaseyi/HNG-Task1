@@ -5,7 +5,8 @@ const Profile = () => {
         <div id='profile__img'>
         <img src={pic} alt="profile_img"/>
         </div>
-        <p>Oluwaseyi Yusuf</p>
+        <p>Oluwaseyifunmi Yusuf</p>
+        <h6 id='slack'>Oluwaseyifunmi Yusuf</h6>
         </div>
      );
 }
