@@ -3,6 +3,10 @@
   text-align: center;
   font-family: 'inter', sans-serif;
 }
+.contact {
+  text-align: left;
+  font-family: 'inter', sans-serif;
+}
 
 /* Profile */
 .profile {
@@ -61,6 +65,14 @@ hr {
   color: grey;
 }
 
+/* Contact Me */
+.contact {
+  text-align: center;
+}
+.names {
+  display: flex;
+  flex-direction: row;
+}
 
 @media (max-width: 700px) {
   .zuri{
