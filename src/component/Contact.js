@@ -1,8 +1,13 @@
 import Footer from "./Footer";
 
+
+function Submit(event) {
+    event.preventDefault();
+}
+
 const Contact = () => {
     return ( 
-        <div className="contact">
+        <form className="contact" onSubmit={Submit}>
         <div className="contact_head">
             <h2>Contact Me</h2>
             <p>Hi there, contact me to ask me about anything you have in mind.</p>
@@ -15,7 +20,7 @@ const Contact = () => {
         </div>
         <div id="last_name">
             <label htmlFor="last_name">Last name</label><br />
-            <input type="last_name" placeholder="Enter your last name" required/>
+            <input type="last_name" id="last_name" placeholder="Enter your last name" required/>
         </div>
         </div>
 
@@ -35,7 +40,7 @@ const Contact = () => {
         <button id="btn__submit" type="submit">Send message</button>
         </div>
         <Footer />
-        </div>
+        </form>
      );
 }
  
