@@ -1,5 +1,5 @@
-import zuri from './images/zuri.png';
-import ingressive from './images/ingressive.png';
+import zuri from '../images/zuri.png';
+import ingressive from '../images/ingressive.png';
 const Footer = () => {
     return ( 
         <div className="footer">

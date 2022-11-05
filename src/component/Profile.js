@@ -1,4 +1,4 @@
-import pic from './images/profile__img.jpg';
+import pic from '../images/profile__img.jpg';
 const Profile = () => {
     return ( 
         <div className="profile">
